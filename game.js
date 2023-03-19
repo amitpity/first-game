@@ -338,7 +338,7 @@ var map2 = {
         change_colour: 'game.player.colour = "#"+(Math.random()*0xFFFFFF<<0).toString(16);',
         /* you could load a new map variable here */
         next_level: 'alert("Yay! You won! go to the next level.");game.load_map(map3);',
-        death: 'alert("You died!");game.load_map(map3);',
+        death: 'alert("You died!");game.load_map(map2);',
         unlock: 'game.current_map.keys[10].solid = 0;game.current_map.keys[10].colour = "#888";'
     }
 };
@@ -479,7 +479,7 @@ var map3 = {
         change_colour: 'game.player.colour = "#"+(Math.random()*0xFFFFFF<<0).toString(16);',
         /* you could load a new map variable here */
         next_level: 'alert("Yay! You won! go to the next leve1.");game.load_map(map4);',
-        death: 'alert("You died!");game.load_map(map4);',
+        death: 'alert("You died!");game.load_map(map3);',
         unlock: 'game.current_map.keys[10].solid = 0;game.current_map.keys[10].colour = "#888";'
     }
 };
@@ -620,8 +620,8 @@ var map4 = {
         /* you can just use "this" instead of your engine variable ("game"), but Codepen doesn't like it */
         change_colour: 'game.player.colour = "#"+(Math.random()*0xFFFFFF<<0).toString(16);',
         /* you could load a new map variable here */
-        next_level: 'alert("Yay! You won! go to the next level.");game.load_map(map2);',
-        death: 'alert("You died!");game.load_map(map);',
+        next_level: 'alert("Yay! You won! go to the next level.");game.load_map(map5);',
+        death: 'alert("You died!");game.load_map(ma4);',
         unlock: 'game.current_map.keys[10].solid = 0;game.current_map.keys[10].colour = "#888";'
     }
 };
